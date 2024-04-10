@@ -76,7 +76,7 @@ ul{
     display: flex;
     list-style: none;
     height: 100%;
-    color: black;
+    
     
     li{
         display: flex;
@@ -89,14 +89,14 @@ ul{
         }
         
         &:hover a {
-            color: black;
+            color: blue;
         }
         a{
             text-decoration: none;
             text-transform: uppercase;
             font-weight: 600;
             font-size: .9rem;
-            color: $main-grey;
+            color: black;
         }
     }
 }
