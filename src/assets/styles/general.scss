@@ -17,8 +17,10 @@ $fa-font-path: '../fonts/webfonts';
 
 body{
     font-family: $basefont;
+    list-style: none;
 }
 
-h1 {
-    color: $bluetext;
+header{
+    align-items: center;
+    justify-content: space-between;
 }
