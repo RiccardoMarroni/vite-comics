@@ -25,5 +25,6 @@ main{
     background-color: black;
     height: 200px;
     color:white;
+    margin-top: 50px;
 }
 </style>
