@@ -3,6 +3,7 @@
   <MainComponent />
   <ShopComponent />
   <JumboFooter />
+  <BottomFooter />
   <FooterComponent />
 </template>
 
@@ -11,6 +12,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import ShopComponent from './components/ShopComponent.vue';
 import JumboFooter from './components/JumboFooter.vue';
+import BottomFooter from './components/BottomFooter.vue';
 import FooterComponent from './components/FooterComponent.vue';
 
 
@@ -21,6 +23,7 @@ import FooterComponent from './components/FooterComponent.vue';
       MainComponent,
       ShopComponent,
       JumboFooter,
+      BottomFooter,
       FooterComponent
     },
     data(){
