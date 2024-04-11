@@ -17,7 +17,7 @@
             return{
                 ShopLink : [
                     {
-                        
+                        img: '..\assets\img\buy-comics-digital-comics.png',
                         label:"DIGITAL COMICS",
                         url:"#",
                     },
