@@ -1,7 +1,7 @@
 <template>
     <section>
-        <div class="container">
-            <div>
+        <div class="container row">
+            <div class="col">
                 <div>
                     <h5>dc comics</h5>
                     <ul>
@@ -42,7 +42,7 @@
 
 <script>
     export default {
-        name: 'JumboFooter.vue',
+        name: 'JumboFooter',
         data () {
             return {
                 links: {
@@ -97,7 +97,7 @@
         
 
         .container {
-            display: flex;
+            // display: flex;
             justify-content: start;
             align-items: flex-start;
             gap: 20px;
