@@ -2,8 +2,9 @@
     <main>
         <div class="jumbotron"></div>
         <div class="container">
-        <!-- <CardComponent :tumb="item.src" :price="item.price" :seriece="item.seriece" type="item.type" /> -->
-        parixiale
+            <h3 class="title text-center">Current Series</h3>
+         <CardComponent :item="comics"/> 
+        
         </div>
     </main>
 </template>
@@ -18,7 +19,7 @@ import CardComponent from '../components/CardComponent.vue';
         },
         data() {
             return{
-                products: comics
+                 comics
             }
         },
         mounted(){
@@ -45,5 +46,11 @@ main{
     padding: 200px;
         
         
+}
+
+h3{
+    color:white;
+    background-color: blue;
+    margin: 0, 60px;
 }
 </style>
