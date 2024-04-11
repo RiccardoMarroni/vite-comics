@@ -2,17 +2,20 @@
     <main>
         <div class="jumbotron"></div>
         <div class="container">
-            <h2 >lorem500</h2> 
-
+        <!-- <CardComponent :tumb="item.src" :price="item.price" :seriece="item.seriece" type="item.type" /> -->
+        parixiale
         </div>
     </main>
 </template>
 
 <script>
 import {comics} from '../data/store.js'; //import dei dati
-
+import CardComponent from '../components/CardComponent.vue';
     export default {
         name: 'MainComponent',
+        components:{
+            CardComponent
+        },
         data() {
             return{
                 products: comics

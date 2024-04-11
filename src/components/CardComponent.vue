@@ -1,13 +1,13 @@
 <template>
     <div>
-qui va il layout della card
+        test
     </div>
 </template>
 
 <script>
     export default {
-        name:'CardTest'
-        props:['gruppi in data']
+        name: 'CardComponent.vue',
+     props: ['tumb', 'price', 'seriece', 'type']
     }
 </script>
 
