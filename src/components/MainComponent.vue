@@ -3,7 +3,7 @@
         <div class="jumbotron"></div>
         <div class="container">
             <h3 class="title text-center">Current Series</h3>
-         <CardComponent :item="comics"/> 
+         <CardComponent/> 
         
         </div>
     </main>

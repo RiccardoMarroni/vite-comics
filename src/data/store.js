@@ -73,4 +73,4 @@ const comics= [
     },
   ];
   
-  export {comics};
+  export {comics};  
