@@ -2,6 +2,7 @@
   <HeaderComponent />
   <MainComponent />
   <ShopComponent />
+  <JumboFooter />
   <FooterComponent />
 </template>
 
@@ -9,7 +10,9 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import ShopComponent from './components/ShopComponent.vue';
+import JumboFooter from './components/JumboFooter.vue';
 import FooterComponent from './components/FooterComponent.vue';
+
 
   export default {
     name: 'App',
@@ -17,6 +20,7 @@ import FooterComponent from './components/FooterComponent.vue';
       HeaderComponent,
       MainComponent,
       ShopComponent,
+      JumboFooter,
       FooterComponent
     },
     data(){
